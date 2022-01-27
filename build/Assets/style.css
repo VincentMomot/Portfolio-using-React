@@ -1,0 +1,153 @@
+*{font-family: sans-serif; color:whitesmoke; box-sizing: border-box; margin: 0%;}
+
+/* Color Pallet */
+:root{
+    --hc:#224668;
+    --bc:#4e8db4;
+
+}
+
+/* Sets the background to a professional color */
+body{background-color: white;
+display: flex; flex-direction: column;}
+
+/* Spaces the ISU picture from my profile picture */
+#ISU{margin-left: 50px;}
+.GTISU{padding-bottom: 20px ;}
+
+header {display: flex; justify-content: space-between; align-items: center; padding: .5% 2% .5% 2% ; background-color: var(--hc); color: lightgray;
+} 
+header a{text-decoration: none; color:black}
+#home{color:white}
+header li{background-color: whitesmoke; padding: 2px; border-radius:2px;}
+header li:hover{background-color: rgb(194, 207, 214);}
+#home:hover{color:rgb(194, 207, 214);}
+header li:active{background-color: rgb(151, 160, 165);}
+#home:active{color:rgb(151, 160, 165);}
+/* Width is the space between nav items, underline was also taken away */
+nav ul{display: flex; justify-content: space-between; width: 425px; list-style-type: none; font-size: 20px; text-decoration: none;
+}
+
+img{height:19%; width:19%; padding: 5% 5% 5% 0;}
+
+
+#Vince{float: left; width:500px; height: 500px; padding: 30px; padding-bottom: 20px; border-radius: 10px;
+}
+
+#Vince-border{border-radius: 15px;}
+
+/* Sets the location of the "Biography header */
+.bio h2{text-align: center; display: inline-block; padding:4% 0% 3% 0%; color: gray;
+}
+
+.bio p{padding: 0 40px 20px 0; color: gray;
+}
+
+/* Centers the content in the footer to be in line with the logos above */
+footer{background-color: gray; padding:5px; height:250px; display: flex; justify-content: center;
+}
+
+/* Sets the titles above their forms below */
+footer h3{text-align: left; padding-left: 80px;
+}
+
+/* Sets Footer Form and image settings */
+#contact{text-align: left; height:250px; padding-left: 70px; justify-content: center;}
+#contact input{color:var(--hc)}
+/* Submit button is directly below the form */
+#submit{margin-left: 100px;}
+#contactinfo p{padding-left: 80px; color:white; }
+#contactinfo img{padding: 8px; margin-top: 3px;}
+#linkedin img{margin-left: 73px; margin-top: 8px;}
+/* random white spot is colored gray to match background */
+#contactinfo a{color:grey;}
+ul{width:400px}
+#email a{color:white;}
+#github img{width:25%;}
+/* Ends Footer display settings */
+
+
+    /* This is for the games page */    
+    #background{padding:35px;
+    }
+    #background h1,h2,p{color:gray;
+    }
+    #background a, #background u{color: black
+    }
+    iframe{padding:20px; width:800px; height: 600px; padding-bottom: 90px;;
+    }
+    #background h1{padding-bottom: 13px; color:rgb(80, 80, 80);
+    }
+    #background h2{padding-top: 15px;
+    }
+    #background p{float: right; margin-right: 150px; font-size: 18px;line-height: 25px;
+    }
+
+    /* end of game page */
+
+
+    /* This is for the resume page */
+    embed{width:100%; height:1200px; padding: 20px;}
+    /* End of Resume Page */
+
+
+    /* This is for the WORK page */
+    #work img{height: 300px; width: auto; padding:5px; width:50%; height: auto; padding: 5%;}
+    #work h2{margin-top:30px;}
+    #work img, h2{padding-left: 25px;}
+    #work p{margin-left: 25px;}
+    #pswd{border: 2px solid gray; padding: 0px; margin-left: 20px; size:50%}
+    #black{color: gray;}
+    .git{color:gray; margin-left: 25px}
+    /* End of Work Page */
+
+
+    /* Sets most elements to be on top of each other when viewed on a small screen */
+    @media screen and (max-width:900px) {
+
+        header {display: block;
+        }
+        body{display: block;
+        }
+        #background h2{display: block; float: left;
+        }
+        #background hr{display: none;
+        }
+        #contact{padding-left:10px;
+        }
+        footer u {padding-left: 0px;
+        }
+        .bio p, .bio h2{margin-left: 30px;
+        }
+        iframe{padding:0px; width:450px; height: 350px; padding-bottom: 90px;margin-left: 0px;
+        }
+        #background{padding:15px;}
+        /* This creates more space between manu items in the nav pannel */
+        nav ul{width:460px;margin-left: 0px; padding-left: 0px;
+        }       
+        #home{padding-right: 30px;
+        }
+        #work img{max-width: 450px;height: auto;}
+    }
+
+    @media all and (max-width:500px) {
+        .bio {margin-left: 30px;
+        align-items: center;}
+        #ISU {margin-left: 30px;}
+        #Vince{max-width: 250px;
+            height:auto;
+            padding:15px; 
+            margin-left: 10%;
+            margin-right: 10%;}
+        .GTISU{ max-width: 200px;}
+       #contactinfo p, footer h3{padding-left:0px;}
+        #linkdin{margin:0px;}
+        footer{padding:0px}
+        #linkedin img {margin-left:0px}
+        header{padding:5px}
+        nav ul{width:350px;margin-left: 0px; padding-left: 0px;
+        } 
+        h2{margin-left: 5px;}
+        #work img{padding:2%;}
+        iframe{max-width: 90%;}
+    }
