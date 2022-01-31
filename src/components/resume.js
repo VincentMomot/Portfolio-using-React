@@ -3,7 +3,7 @@ import React from 'react';
 function home() {
   return (<div>
 
-  <embed src="Assets/Vincent D Momot Resume.pdf" />     
+  <img src="Assets/ResumeforReact.PNG"/>     
         
   </div>);
 }

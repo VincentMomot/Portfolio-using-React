@@ -1,6 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Work from './components/myWork';
+import Work from './components/work';
 import Resume from './components/resume';
 import Nav from './components/Nav';
 import Home from './components/home';
@@ -13,8 +13,8 @@ function App() {
     <Router>
     <div className='App'>
       <Nav />
+      <Route exact path='/home' component={Home} />
       <Switch>
-        <Route exact path='/' component={Home} />
         <Route exact path='/myWork' component={Work} />
         <Route exact path='/resume' component={Resume} />
         <Route exact path='/games' component={Games} />

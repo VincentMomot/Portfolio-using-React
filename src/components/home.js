@@ -2,6 +2,7 @@ import React from 'react';
 
 function home() {
   return (<div>
+    <body>
         <content>
           <aside className="bio">
             <div id="Vince-border"><img id="Vince" src="Assets/Vincent.png" alt="This is My Profile Picture" /></div>
@@ -34,7 +35,8 @@ function home() {
             <img alt="My GitHub Account" src="Assets/GitHub.png" />
             </a>
           </div>          
-        </footer>      
+        </footer>    
+        </body>  
   </div>);
 }
 

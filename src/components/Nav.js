@@ -4,8 +4,7 @@ import {Link} from 'react-router-dom';
 const Nav=()=> {
   return(
       <header>
-        <h1><a id="home" href="index.html">Vincent D Momot's Portfolio</a></h1>  
-        <Link to='/'>Vincent D Momot's Portfolio</Link>
+        <h1><Link to='/home' id="white">Vincent D Momot's Portfolio</Link></h1>
         <nav>
           <ul>
             <li><Link to="/work">My Work</Link></li>
