@@ -2,6 +2,7 @@ import React from 'react';
 
 function home() {
   return (<div>
+    <body id="work">
         <h2>JustFurPets</h2>
         <hr />
         <a href="https://just-fur-pets.herokuapp.com/" target="_blank">
@@ -68,7 +69,7 @@ function home() {
         <p>These images showcase my SolidWorks skills using only a 12" ruler and a waterbottle to take measurements on.</p>
         <p>With this project, I learned how to apply screw constraints and render images to look more impressive.</p>
  
-        
+        </body>
   </div>);
 }
 
