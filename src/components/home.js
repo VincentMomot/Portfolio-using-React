@@ -14,8 +14,8 @@ function home() {
             <p>While on this site you can see some of the games and projects I created, view my resume, and send me a message.
               <br />I look forward to hearing from you!
             </p>
-            <img src="Assets/Iowa.png" alt="Iowa State Logo" className="GTISU" id="ISU" />
-            <img src="Assets/GATech.png" alt="GA Tech Icon" className="GTISU" />
+            <img src={'./Assets/Iowa.png'} alt="Iowa State Logo" className="GTISU" id="ISU" />
+            <img src={"../Assets/GATech.png"} alt="GA Tech Icon" className="GTISU" />
           </aside>
         </content>
         <footer>
