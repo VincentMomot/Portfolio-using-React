@@ -1,11 +1,12 @@
 import React from 'react';
+const imgPath= '../public/Assets';
 
 function home() {
-  return (<div>
+  return (
     <body>
         <content>
           <aside className="bio">
-            <div id="Vince-border"><img id="Vince" src="Assets/Vincent.png" alt="This is My Profile Picture" /></div>
+            <div id="Vince-border"><img id="Vince" src={'../public/Assets/Vincent.png'} alt="This is My Profile Picture" /></div>
             <h2>Biography:</h2>
             <br />
             <p>I graduated from Iowa State University in 2020 with a degree in Aerospace Engineering and a minor in Business. In 2021 
@@ -37,7 +38,7 @@ function home() {
           </div>          
         </footer>    
         </body>  
-  </div>);
+  );
 }
 
 export default home;
