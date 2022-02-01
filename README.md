@@ -15,8 +15,8 @@ This is a display of my professional work
 * Add image functionality with react
 * Get homepage to load on initial site visit
 
-[This is a link to the site](https://vincentmomot.github.io/home)
+[This is a link to the site](https://vincentmomot.github.io/Portfolio-using-React/)
 
 Screenshots of the site:
-![This is an image of my main page](public/Assets/mainpage.PNG)
+![This is an image of my main page](./public/Assets/mainpage.PNG)
 
